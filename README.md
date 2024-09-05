@@ -2,13 +2,13 @@
 
 | Name | Value |
 |:---|:---|
-| **Course** | CSCI110 - CS0: Beginning Programming: Python |
-| **Section** | FIXME |
-| **Semester** | FIXME |
-| **Student** | FIXME |
-| **Mav Username**            | FIXME |
-| **GitHub Username**         | FIXME |
-| **Repository URL**          | FIXME |
+| **Course**            | CSCI110 - CS0: Beginning Programming: Python |
+| **Section**           | FIXME |
+| **Semester**          | FIXME |
+| **Student**           | FIXME |
+| **Mav Username**      | FIXME |
+| **GitHub Username**   | FIXME |
+| **Repository URL**    | FIXME |
 
 ## Labs
 
@@ -16,13 +16,13 @@
 
 | Name | Value |
 | :--- | :--- |
-| Name | Lab 0 - Std IO Lab |
-| Description | Lab covering standard input and output |
-| Due Date | FIXME |
-| Status | FIXME |
-| Location | <URL TO THE CURRENT LAB FOLDER IN REMOTE> |
-| Self Grade | 100/100 |
-| Notes | fixed all the fixmes; learned about stdio; stdio is the fundamental building blocks in coding |
+| Name          |Lab 0 - Std IO Lab |
+| Description   |Lab covering standard input and output |
+| Due Date      | FIXME |
+| Status        | FIXME |
+| Location      | <URL TO THE CURRENT LAB FOLDER IN REMOTE> |
+| Self Grade    | 100/100 |
+| Notes         | fixed all the fixmes; learned about stdio; stdio is the fundamental building blocks in     coding |
 
 
 ## References
