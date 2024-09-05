@@ -12,7 +12,7 @@
 
 ## Labs
 
-### Lab #1
+### Lab 0
 
 | Name | Value |
 | :--- | :--- |
@@ -20,7 +20,7 @@
 | Description   |Lab covering standard input and output |
 | Due Date      | FIXME |
 | Status        | FIXME |
-| Location      | <URL TO THE CURRENT LAB FOLDER IN REMOTE> |
+| Location      | FIXME: URL TO THE CURRENT LAB FOLDER IN REMOTE |
 | Self Grade    | 100/100 |
 | Notes         | fixed all the fixmes; learned about stdio; stdio is the fundamental building blocks in     coding |
 
