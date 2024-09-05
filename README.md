@@ -1,4 +1,4 @@
-# CS0
+# CS0 Lab
 
 | Name | Value |
 |:---|:---|
