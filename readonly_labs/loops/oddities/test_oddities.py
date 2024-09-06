@@ -16,9 +16,9 @@ def test_answer2():
     assert ans == expected, f"Expected: {expected}, but got: {ans}"
 
 
-# FIXME 6: add a new test case  function to test your answer function
+#FIXME 6: add a new test case  function to test your answer function
 
-# FIXME 7: add a new test case function to test your answer function
+#FIXME 7: add a new test case function to test your answer function
 
 
 def test_odd_even():

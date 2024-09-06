@@ -120,3 +120,4 @@ __pycache__/
 
 *.db-journal
 .vscode
+readonly_labs/
