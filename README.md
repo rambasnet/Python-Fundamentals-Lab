@@ -5,7 +5,7 @@
 | **Course**            | CSCI110 - CS0: Beginning Programming: Python |
 | **Section**           | FIXME |
 | **Semester**          | FIXME |
-| **Student**           | FIXME |
+| **Student Name**      | FIXME |
 | **Mav Username**      | FIXME |
 | **GitHub Username**   | FIXME |
 | **Repository URL**    | FIXME |
