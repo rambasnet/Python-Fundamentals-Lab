@@ -15,14 +15,15 @@ Algorithm:
 import sys
 
 
-def main():
+def main() -> None:
     """Main function that solves the problem.
     """
+    # call read_data() and store the result into data variable
     data = read_data()
     # FIXME 1: Call answer function passing data as an argument
     # store the returned result into ans variable
     ans = "FIXME"
-    # FIXME 2: print the result
+    # FIXME 2: print the ans
 
 
 def read_data() -> str:
@@ -32,7 +33,7 @@ def read_data() -> str:
     """
     # FIXME 3: read and store the input line into data variable
     # FIXME 4: return data
-    pass
+    return "FIXME"
 
 
 def answer(data: str) -> str:
@@ -48,5 +49,5 @@ def answer(data: str) -> str:
 
 
 if __name__ == "__main__":
-    # FIXME 10: call main function
+    # FIXME 6: call main function
     pass
