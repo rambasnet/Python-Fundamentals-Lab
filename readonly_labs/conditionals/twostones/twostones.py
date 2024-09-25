@@ -1,5 +1,5 @@
 """
-Conditional Logic Lab
+Conditionals Lab
 Updated By: FIXME
 CSCI 110 Lab
 Date: FIXME
@@ -15,7 +15,7 @@ Algorithm Steps:
 """
 
 
-def main():
+def main() -> None:
     """Main function that solves the problem
     """
     # FIXME 1: read the number of stones
@@ -23,7 +23,7 @@ def main():
     # FIXME 3: print the answer as shown in the sample output
 
 
-def odd_even(number: int):
+def odd_even(number: int) -> str:
     """Checks if the number is odd or even
 
     Args:
@@ -38,7 +38,7 @@ def odd_even(number: int):
     return ans
 
 
-def answer(stone: int):
+def answer(stone: int) -> str:
     """Creates the final answer and returns it given the number of stones
 
     Args:

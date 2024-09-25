@@ -39,5 +39,4 @@ def test__diff__():
     assert chess3.pawns == 0
 
 
-# FIXME: add two test function to __sub__ method to 
-# test the difference is correct
+# add two test function to __sub__ method to test the difference is correct
