@@ -1,4 +1,4 @@
-# CSCI-110 - CS0 Beginning Programming: Lab
+# CSCI 110 - CS0 Beginning Programming: Lab
 
 | Name | Value |
 |:---|:---|
