@@ -49,13 +49,14 @@ def read_int_data() -> int:
     """
     # FIXME 3: using input read and store the data into data variable
     # FIXME 4: convert the data into an int and return it
+    return 0
 
 
 def answer(num: int) -> str:
     """Creates the final answer and returns it given the number
 
     Args:
-        num (int): number to check odd or even
+        num (int): number to check for odd or even
 
     Returns:
         bool : True if the number is even, False otherwise
