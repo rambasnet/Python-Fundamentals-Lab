@@ -58,14 +58,14 @@ pip install -U pytest
 - Note that test modules must have prefix `test_` for pytest to find it.
 
 ```bash
-cd labs/conditionals/twostones
+cd labs/loops/oddities
 pytest --verbose
 python -m pytest --verbose
 ```
 
 ## Submission
 
-1. Create screenshots showing your local testings (kattis test and pytest results) and the kattis final **Accept** verdict and save them to the **thelastproblem/screenshots** folder. (10 points)
+1. Create screenshots showing your local testings (kattis test and pytest results) and the kattis final **Accept** verdict and save them to the **loops/screenshots** folder. (10 points)
 2. Update your `labs/README.md` file (10 points) as shown here: <https://github.com/rambasnet/csci000-astudent>
 
 ```bash
