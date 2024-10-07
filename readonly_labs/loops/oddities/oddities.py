@@ -56,7 +56,7 @@ def answer(num: int) -> str:
     """Creates the final answer and returns it given the number
 
     Args:
-        num (int): number to check for odd or even
+        num (int): number to check odd or even
 
     Returns:
         bool : True if the number is even, False otherwise

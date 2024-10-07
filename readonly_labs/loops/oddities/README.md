@@ -2,7 +2,7 @@
 
 Possible Points: 100
 
-Write a Python 3 program to solve the Kattis problem with id - oddities [https://open.kattis.com/problems/oddities](https://open.kattis.com/problems/oddities). Read the problem statement carefully to design a correct solution using unittest. Note that the last part of the URL (twostones) is the problem id.
+Write a Python program to solve the Kattis problem id - oddities [https://open.kattis.com/problems/oddities](https://open.kattis.com/problems/oddities). Read the problem statement carefully to design a correct solution using unittest.
 
 ## Kattis Setup
 
@@ -16,7 +16,8 @@ If not done before:
 1. Change working directory to `labs/loops/` and execute the following Kattis command:
 
 ```bash
-cd labs/loops/
+git pull
+cd labs/conditionals/
 kattis get <problem id>
 cd <problem id>
 kattis test
@@ -58,18 +59,18 @@ pip install -U pytest
 - Note that test modules must have prefix `test_` for pytest to find it.
 
 ```bash
-cd labs/loops/oddities
+cd labs/conditionals/twostones
 pytest --verbose
 python -m pytest --verbose
 ```
 
 ## Submission
 
-1. Create screenshots showing your local testings (kattis test and pytest results) and the kattis final **Accept** verdict and save them to the **loops/screenshots** folder. (10 points)
+1. Create screenshots showing your local testings (kattis test and pytest results) and the kattis final **Accept** verdict and save them to the **thelastproblem/screenshots** folder. (10 points)
 2. Update your `labs/README.md` file (10 points) as shown here: <https://github.com/rambasnet/csci000-astudent>
 
 ```bash
-cd /workspaces/<your git repo>/
+cd /workspaces/<your git repo>
 git pull
 git status
 git add <each file in the red that is part of this lab>
