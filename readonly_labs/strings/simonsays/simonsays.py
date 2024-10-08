@@ -11,7 +11,8 @@ Algorithm:
     2. Repeat N times:
         1. Read the input string
         2. Check if the string begins with 'Simon says'
-        3. If it does, print the rest of the string after 'Simon says', otherwise ignore the string
+        3. If it does, print the rest of the string after 'Simon says', 
+            otherwise ignore the string
 """
 
 from typing import Union
@@ -59,4 +60,4 @@ def answer(command: str) -> Union[str, None]:
 
 if __name__ == "__main__":
     # call the main function if the script is run from the command line
-    main()
+    pass
