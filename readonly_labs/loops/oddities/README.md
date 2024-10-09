@@ -34,17 +34,6 @@ Print as asked: nothing less; nothing more!
 Kattis is a computer program that provides specific input and expects exact output – to a space to give the correct verdict.
 ```
 
-## Whole program test with Kattis-cli
-
-1. Test the whole program using Kattis-cli. While testing, provide input using the same format as described in the Input section and shown in input samples.
-2. Add three new input and corresponding output files like the sample files inside data folder (10 points)
-3. Test locally and submit to Kattis once all the tests pass
-
-```bash
-kattis test
-kattis submit
-```
-
 ## Unit testing with Pytest
 
 1. Insall pytest library if required
@@ -62,6 +51,17 @@ pip install -U pytest
 cd labs/conditionals/twostones
 pytest --verbose
 python -m pytest --verbose
+```
+
+## Whole program test with Kattis-cli
+
+1. Test the whole program using Kattis-cli. While testing, provide input using the same format as described in the Input section and shown in input samples.
+2. Add three new input and corresponding output files like the sample files inside data folder (10 points)
+3. Test locally and submit to Kattis once all the tests pass
+
+```bash
+kattis test
+kattis submit
 ```
 
 ## Submission

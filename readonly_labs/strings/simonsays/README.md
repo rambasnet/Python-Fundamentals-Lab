@@ -13,7 +13,7 @@ If not done before:
 
 ## Download problem sample data and metadata
 
-1. Change working directory to `labs/loops/` and execute the following Kattis command:
+1. Change working directory to `labs/strings/` and execute the following Kattis command:
 
 ```bash
 git pull
@@ -26,23 +26,13 @@ kattis test
 2. Run the given partial solution to understand what it does.
 3. Update <problem id>.py file and fix all fixmes. Write #fixed# after each #fixme.
 4. Follow best programming practices by using proper white spaces, comments, etc.
+5. Update test_<problem id>.py file and fil all fixmes. Write #fixed# after each #fixme.
 
 ```
 IMPORTANT: Never ask the user telling what data to enter for Kattis problems. Kattis knows what to enter.
 Directly read the input. Print only the answer as displayed in the sample output.
 Print as asked: nothing less; nothing more!
 Kattis is a computer program that provides specific input and expects exact output – to a space to give the correct verdict.
-```
-
-## Whole program test with Kattis-cli
-
-1. Test the whole program using Kattis-cli. While testing, provide input using the same format as described in the Input section and shown in input samples.
-2. Add three new input and corresponding output files like the sample files inside data folder (10 points)
-3. Test locally and submit to Kattis once all the tests pass
-
-```bash
-kattis test
-kattis submit
 ```
 
 ## Unit testing with Pytest
@@ -59,14 +49,25 @@ pip install -U pytest
 - Note that test modules must have prefix `test_` for pytest to find it.
 
 ```bash
-cd labs/conditionals/twostones
+cd <problem id>
 pytest --verbose
 python -m pytest --verbose
 ```
 
+## Whole program test with Kattis-cli
+
+1. Test the whole program using Kattis-cli. While testing, provide input using the same format as described in the Input section and shown in input samples.
+2. Add three new input and corresponding output files like the sample files inside data folder (10 points)
+3. Test locally and submit to Kattis once all the tests pass
+
+```bash
+kattis test
+kattis submit
+```
+
 ## Submission
 
-1. Create screenshots showing your local testings (kattis test and pytest results) and the kattis final **Accept** verdict and save them to the **thelastproblem/screenshots** folder. (10 points)
+1. Create screenshots showing your local testings (kattis test and pytest results) and the kattis final **Accept** verdict and save them to the **screenshots** folder. (10 points)
 2. Update your `labs/README.md` file (10 points) as shown here: <https://github.com/rambasnet/csci000-astudent>
 
 ```bash

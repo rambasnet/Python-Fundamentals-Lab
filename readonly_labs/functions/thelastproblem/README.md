@@ -68,7 +68,6 @@ python -m pytest --verbose
 2. Update your `labs/README.md` file (10 points) as shown here: https://github.com/rambasnet/csci000-astudent
 
 ```bash
-cd /workspaces/<your repo>/
 git pull
 git status
 git add <each file in the red that is part of this lab>
