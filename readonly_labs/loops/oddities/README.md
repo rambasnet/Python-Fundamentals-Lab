@@ -17,7 +17,7 @@ If not done before:
 
 ```bash
 git pull
-cd labs/conditionals/
+cd labs/loops/
 kattis get <problem id>
 cd <problem id>
 kattis test
@@ -48,7 +48,7 @@ pip install -U pytest
 - Note that test modules must have prefix `test_` for pytest to find it.
 
 ```bash
-cd labs/conditionals/twostones
+cd labs/loops/<problem id>
 pytest --verbose
 python -m pytest --verbose
 ```
