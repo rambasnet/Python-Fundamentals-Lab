@@ -13,7 +13,7 @@ If not done before:
 
 ## Download problem sample data and metadata
 
-1. Change working directory to `labs/conditionals/` and execute the following Kattis command:
+1. Execute the following commands:
 
 ```bash
 git pull
