@@ -11,8 +11,7 @@ def test_odd_even():
     number = 99999
     expected = "odd"
     ans = twostones.odd_even(number)
-    assert (twostones.odd_even(number) ==
-            ans), f"Expected: {expected}, but got: {ans}"
+    assert (ans == expected), f"Expected: {expected}, but got: {ans}"
 
 
 def test_odd_even2():
