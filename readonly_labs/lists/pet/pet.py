@@ -44,6 +44,7 @@ def get_data() -> List[int]:
     """
     str_nums = input().split()  # list of string numbers
     # FIXME 6: convert str_nums as list of ints and return it
+    return []
 
 
 def list_sum(numbers: List[int]) -> int:
@@ -69,6 +70,8 @@ def answer(scores: List[int]) -> str:
     max_score = max(scores)
     index = scores.index(max_score)
     # FIXME 8: return the index+1 and the max number in the list as a string
+    ans = "FIXME"
+    return ans
 
 
 if __name__ == "__main__":

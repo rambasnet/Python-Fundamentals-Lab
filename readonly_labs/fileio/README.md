@@ -6,24 +6,19 @@ Python lab to explore working with files.
 
 ## Lab Instructions
 
-1. Open your CS0Lab-... repo in VS Code
-2. Create a lab folder **fileio** inside your CS0Lab-... repository
-3. Inside the lab folder, create three files: file_io.py,  test_file_io.py, and data.in
-  - Copy data.in contents into data.in file.
-4. Type the partial code stub provided and fix all FIXMEs. (80 points)
-5. Follow best programming practices by using proper white spaces, comments, etc.
-6. Unittest all the important functions using pytest. Install pytest if required.
+1. Complete labs/fileio lab by fixing all the FIXMEs. (80 points)
+2. Follow best programming practices by using proper white spaces, comments, etc.
+3. Unittest all the important functions using pytest. Install pytest if required.
 
 ```bash
 $ pytest --version
 $ pip install -U pytest
-$ pytest test_*.py
-$ python -m pytest test_*.py
+$ pytest --verbose
 ```
 
-7. Test the whole program manually.
-8. Create screenshots showing your local test results (pytest and manual test of main script) and save them to the lab folder. (20 points)
-9. Update your README file (10 points) as shown here: [https://github.com/rambasnet/csci000-astudent](https://github.com/rambasnet/csci000-astudent)
+4. Test the whole program manually.
+5. Create screenshots showing your local test results (pytest and manual test of main script) and save them to the lab folder. (10 points)
+6. Update your README file (10 points) as shown here: [https://github.com/rambasnet/csci000-astudent](https://github.com/rambasnet/csci000-astudent)
 
 ## Submission
 

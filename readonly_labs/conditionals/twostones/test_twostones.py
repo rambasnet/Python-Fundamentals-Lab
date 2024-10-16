@@ -1,4 +1,4 @@
-"""Module to test important functions in main.py
+"""Module to test important functions in twostones.py
 """
 
 import twostones

@@ -15,7 +15,8 @@ def test__init__() -> None:
     assert chess.knights == 2
     assert chess.pawns == 8
 
-# add two test function to __init__ method to test the attributes are correctly initialized
+# FIXME : add two test function to __init__ method to test
+# the attributes are correctly initialized
 
 
 def test__str__() -> None:
@@ -24,7 +25,8 @@ def test__str__() -> None:
     assert str(chess) == '1 1 2 2 2 8'
 
 
-# add two test function to __str__ method to test the string representation is correct
+# FIXME - add two test function to __str__ method
+# to test the string representation is correct
 
 def test__diff__():
     """Test the __sub__ method"""
@@ -39,4 +41,5 @@ def test__diff__():
     assert chess3.pawns == 0
 
 
-# add two test function to __sub__ method to test the difference is correct
+# FIXME - add two test function to __sub__ method
+# to test the difference is correct

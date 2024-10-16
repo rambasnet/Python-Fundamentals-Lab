@@ -2,49 +2,81 @@
 
 Possible Points: 100
 
-Write a Python program to solve the Kattis problem called pet: [https://open.kattis.com/problems/pet](https://open.kattis.com/problems/pet). Read the problem statement carefully to design a correct solution.
+Write a Python program to solve the Kattis problem with id - pet: [https://open.kattis.com/problems/pet](https://open.kattis.com/problems/pet). Read the problem statement carefully to design a correct solution.
 
-## Lab Instructions
+## Kattis Setup
 
-1. Open your CS0Lab-... repo in VS Code
-2. Create lab folder **lists** inside your CS0Lab-... repository
-3. Inside the lab folder, create two files: pet.py and test_pet.py
-4. Type the partial code stub provided in the lab folder and fix all FIXMEs. (80 points)
-5. Follow best programming practices by using proper white spaces, comments, etc.
+If not done before:
 
-```text
+1. Create your account at [https://open.kattis.com](https://open.kattis.com). Change your university affiliation to Colorado Mesa University if you want to see your rank.
+2. Setup kattis-cli for the Lab Codespace by clicking on and following [instructions here](https://coloradomesa365-my.sharepoint.com/:w:/g/personal/rbasnet_coloradomesa_edu/ESYiqurabGZJrIKmpCT4FnEBcw25QfcGjk_HK5PnRYbveA?e=xVLbe9)
+
+## Download problem sample data and metadata
+
+1. Execute the following commands:
+
+```bash
+git pull
+cd labs/lists/
+kattis get <problem id>
+cd <problem id>
+kattis test
+```
+
+2. Run the given partial solution to understand what it does.
+3. Update all the Python files by fixing all the FIXMEs. Write #fixed# after each #FIXME.
+4. Follow best programming practices by using proper white spaces, comments, etc.
+
+```
 IMPORTANT: Never ask the user telling what data to enter for Kattis problems. Kattis knows what to enter.
 Directly read the input. Print only the answer as displayed in the sample output.
 Print as asked: nothing less; nothing more!
 Kattis is a computer program that provides specific input and expects exact output – to a space to give the correct verdict.
 ```
 
-6. Unittest all the important functions using pytest. Install pytest if required.
+## Unit testing with Pytest
+
+1. Install pytest library if required
 
 ```bash
-  $ pytest --version
-  $ pip install -U pytest
-  $ pytest .
-  $ python -m pytest .
+pytest --version
+pip install -U pytest
 ```
 
-7. Test the whole program manually. While testing, provide input using the same format as described in the Input section and shown in input samples.
-8. Upload only the solution script to Kattis for testing. You can test your solution as many times as you wish. Kattis uses its own hidden test cases to test your program against. However, your goal is to get the accepted verdict in the first try.
-9. Create screenshots showing your local testing and the kattis final Accept verdict and save them to the lab folder. (10 points)
-10. Update your README file (10 points) as shown here: [https://github.com/rambasnet/csci000-astudent](https://github.com/rambasnet/csci000-astudent)
+2. Run unit test using pytest and create screenshot when all the test cases pass. Install pytest if required. Pick one of the following ways to run pytest.
+
+- Note that test modules must have prefix `test_` for pytest to find it.
+
+```bash
+cd <problem id>
+pytest --verbose
+```
+
+## Whole Program test with Kattis-cli
+
+1. Test the whole program using Kattis-cli. While testing, provide input using the same format as described in the Input section and shown in input samples.
+2. Add three new input and corresponding output files like the sample files inside data folder **(10 points)**
+3. Test locally and submit to Kattis once all the tests pass
+
+```bash
+kattis test
+kattis submit
+```
 
 ## Submission
 
-Add all the relevant source file(s), documents, and screenshots into the correct lab folder and do a final add, commit, and push before the due date.
+1. Create screenshots showing your local testings (kattis test and pytest results) and the kattis final **Accept** verdict and save them to the **screenshots** folder. **(10 points)**
+2. Update your `labs/README.md` file (10 points) as shown here: <https://github.com/rambasnet/csci000-astudent>
 
 ```bash
-$ git pull
-$ git status
-$ git add <filename>… - add each file in the red that is part of this lab
-$ git status
-$ git commit -m "Final Submission"
-$ git push
-$ git status
+cd /workspaces/<your git repo>
+git pull
+git status
+git add <each file in the red that is part of this lab>
+git status
+git commit -m "Final submission of <problem id>"
+git push
+git status
 ```
 
-- Check and make sure the files are actually pushed to your GitHub repo.
+3. Make sure the files are actually pushed to your remote GitHub repo.

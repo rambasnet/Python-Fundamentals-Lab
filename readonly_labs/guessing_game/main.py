@@ -5,8 +5,8 @@ Game Application - Guess the Number
 __author__ = "FIXME"
 __date__ = "FIXME"
 __license__ = "MIT"
-__course__ = "CSCI 110 Lab"
-__semester__ = "Fall 2023"
+__course__ = "CSCI 110: Lab"
+__semester__ = "FIXME"
 
 from typing import Any, List, Dict
 import time
@@ -27,8 +27,7 @@ def game_intro() -> None:
 
 
 def main() -> None:
-    """ 
-    Main function for the game.
+    """ Main function for the game.
     """
     game_intro()
     data = functions.read_data(settings.SCORE_BOARD_FILE)

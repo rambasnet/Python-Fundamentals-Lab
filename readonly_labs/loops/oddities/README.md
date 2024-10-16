@@ -36,7 +36,7 @@ Kattis is a computer program that provides specific input and expects exact outp
 
 ## Unit testing with Pytest
 
-1. Insall pytest library if required
+1. Install pytest library if required
 
 ```bash
 pytest --version

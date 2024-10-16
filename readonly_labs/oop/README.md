@@ -2,87 +2,81 @@
 
 Possible Points: 100
 
-Write a Python program to solve the Kattis problem - Bijele - [https://open.kattis.com/problems/bijele](https://open.kattis.com/problems/bijele) . Read the problem statement carefully to design a correct solution using OOP and unittest.
+Write a Python program to solve the Kattis problem ID - Bijele: [https://open.kattis.com/problems/bijele](https://open.kattis.com/problems/bijele) . Read the problem statement carefully to design a correct solution using OOP and unittest.
 
-## Install Kattis-cli
+## Kattis Setup
 
-- if you've installed kattis-cli before, update it to the latest version
+If not done before:
 
-```bash
-$ pip install -U kattis-cli
-$ python -m pip install -U kattis-cli
-```
+1. Create your account at [https://open.kattis.com](https://open.kattis.com). Change your university affiliation to Colorado Mesa University if you want to see your rank.
+2. Setup kattis-cli for the Lab Codespace by clicking on and following [instructions here](https://coloradomesa365-my.sharepoint.com/:w:/g/personal/rbasnet_coloradomesa_edu/ESYiqurabGZJrIKmpCT4FnEBcw25QfcGjk_HK5PnRYbveA?e=xVLbe9)
 
-- if you've not installed kattis-cli before, install it
-    
-```bash
-    $ pip install kattis-cli
-    $ python -m pip install kattis-cli
-```
+## Download problem sample data and metadata
 
-## Setup Kattis-cli
-
-- setup kattis-cli by providing logging in to Kattis using your Kattis username and password
+1. Execute the following commands:
 
 ```bash
-kattis setup
+git pull
+cd labs/oop/
+kattis get <problem id>
+cd <problem id>
+kattis test
 ```
 
-## Lab Instructions
+2. Run the given partial solution to understand what it does.
+3. Update all the Python files by fixing all the FIXMEs. Write #fixed# after each #FIXME.
+4. Follow best programming practices by using proper white spaces, comments, etc.
 
-- Open your CS0Lab-... repo in VS Code
-- Create lab folder **oop** inside your CS0Lab-... repository
-- Inside the lab folder, download the problem metadata and sample files for the problem **bijele** using Kattis-clis
+```
+IMPORTANT: Never ask the user telling what data to enter for Kattis problems. Kattis knows what to enter.
+Directly read the input. Print only the answer as displayed in the sample output.
+Print as asked: nothing less; nothing more!
+Kattis is a computer program that provides specific input and expects exact output – to a space to give the correct verdict.
+```
+
+## Unit testing with Pytest
+
+1. Install pytest library if required
 
 ```bash
-kattis get bijele
+pytest --version
+pip install -U pytest
 ```
 
-- Inside **bijele** folder, type the partial code stub provided and fix all FIXMEs. (80 points)
-- Follow best programming practices by using proper white spaces, comments, etc.
-`
-- Run unit test using pytest and create screenshot when all the test cases pass. Install pytest if required. Pick one of the following ways to run pytest.
+2. Run unit test using pytest and create screenshot when all the test cases pass. Install pytest if required. Pick one of the following ways to run pytest.
+
+- Note that test modules must have prefix `test_` for pytest to find it.
 
 ```bash
-  $ pytest --version
-  $ pip install -U pytest
-  $ pytest .
-  $ python -m pytest .
+cd labs/oop/<problem id>
+pytest --verbose
 ```
 
+## Whole program test with Kattis-cli
 
-- Test the whole program using Katts-cli. (10 points)
+1. Test the whole program using Kattis-cli. While testing, provide input using the same format as described in the Input section and shown in input samples.
+2. Add three new input and corresponding output files like the sample files inside data folder **(10 points)**
+3. Test locally and submit to Kattis once all the tests pass
 
 ```bash
-$ cd bijele
-$ kattis test
+kattis test
+kattis submit
 ```
-
-- Create the screenshot of the correct local test result. (10 points)
-- Submit the solution to Kattis using Kattis-cli. (10 points)
-
-```bash
-$ cd bijele
-$ kattis submit
-```
-
-- Create screenshot of the kattis final Accepted verdict and save it to the lab folder. (10 points)
-
-- Update your README file (10 points) as shown here: [https://github.com/rambasnet/csci000-astudent](https://github.com/rambasnet/csci000-astudent)
 
 ## Submission
 
-- Make sure to format the code using pep8 or black before submission.
-- Add all the relevant source file(s), documents, and screenshots into the correct lab folder and do a final add, commit, and push before the due date.
+1. Create screenshots showing your local testings (kattis test and pytest results) and the kattis final **Accept** verdict and save them to the **screenshots** folder in the current lab folder. (10 points)
+2. Update your `labs/README.md` file (10 points) as shown here: <https://github.com/rambasnet/csci000-astudent>
 
 ```bash
-$ git pull
-$ git status
-$ git add <filename>… - add each file in the red that is part of this lab
-$ git status
-$ git commit -m "Final Submission"
-$ git push
-$ git status
+cd /workspaces/<your git repo>
+git pull
+git status
+git add <each file in the red that is part of this lab>
+git status
+git commit -m "Final submission of <problem id>"
+git push
+git status
 ```
 
-- Check and make sure the files are actually pushed to your GitHub repo on github.com.
+3. Make sure the files are actually pushed to your remote GitHub repo.
