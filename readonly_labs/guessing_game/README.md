@@ -17,9 +17,9 @@ $ pip install -U pytest
 $ pytest --verbose
 ```
 
-7. Test the whole program manually.
-8. Create screenshots showing your local test results (pytest and manual test of main script) and save them to the lab folder. (20 points)
-9. Update your README file (10 points) as shown here: [https://github.com/rambasnet/csci000-astudent](https://github.com/rambasnet/csci000-astudent)
+4. Test the whole program manually.
+5. Create screenshots showing your local test results (pytest and manual test of main script) and save them to the lab folder. (20 points)
+6. Update your README file (10 points) as shown here: [https://github.com/rambasnet/csci000-astudent](https://github.com/rambasnet/csci000-astudent)
 
 ## Submission
 
