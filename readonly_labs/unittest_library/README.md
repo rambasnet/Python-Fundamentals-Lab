@@ -1,8 +1,8 @@
-# CS0 Lab - OOP and Unittesting
+# CS0 Lab - OOP and Unittesting with Unittest Library
 
 Possible Points: 100
 
-Write a Python program to solve the Kattis problem ID - Bijele: [https://open.kattis.com/problems/bijele](https://open.kattis.com/problems/bijele) . Read the problem statement carefully to design a correct solution using OOP and unittest.
+Write a Python program to solve the Kattis problem id - trik: [https://open.kattis.com/problems/trik](https://open.kattis.com/problems/trik). Read the problem statement carefully to design a correct solution using OOP and unittest library.
 
 ## Kattis Setup
 
@@ -17,7 +17,7 @@ If not done before:
 
 ```bash
 git pull
-cd labs/oop/
+cd labs/unittest_library/
 kattis get <problem id>
 cd <problem id>
 kattis test
@@ -48,7 +48,7 @@ pip install -U pytest
 - Note that test modules must have prefix `test_` for pytest to find it.
 
 ```bash
-cd labs/oop/<problem id>
+cd labs/unittest_library/<problem id>
 pytest --verbose
 ```
 
@@ -65,7 +65,7 @@ kattis submit
 
 ## Submission
 
-1. Create screenshots showing your local testings (kattis test and pytest results) and the kattis final **Accept** verdict and save them to the **screenshots** folder in the current lab folder. (10 points)
+1. Create screenshots showing your local testings (kattis test and pytest results) and the kattis final **Accept** verdict and save them to the **screenshots** folder in the current lab folder. **(10 points)**
 2. Update your `labs/README.md` file (10 points) as shown here: <https://github.com/rambasnet/csci000-astudent>
 
 ```bash
