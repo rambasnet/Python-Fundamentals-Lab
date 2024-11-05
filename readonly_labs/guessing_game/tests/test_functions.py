@@ -12,8 +12,8 @@ def test_save_data() -> None:
     data = {"name": "John Smith", "win": 2, "loss": 1}
     file_name = path.join("tests", "test_data.yaml")
     functions.save_data(file_name, data)
-    my_data = functions.read_data(file_name)
-    assert data == my_data
+    file_data = functions.read_data(file_name)
+    assert data == file_data
 
 
 def test_save_data1() -> None:
@@ -23,8 +23,8 @@ def test_save_data1() -> None:
     data = [{"name": "John Smith", "win": 2, "loss": 1},
             {"name": "Jake Smith", "win": 1, "loss": 0}]
     functions.save_data(file_name, data)
-    my_data = functions.read_data(file_name)
-    assert data == my_data
+    file_data = functions.read_data(file_name)
+    assert data == file_data
 
 
 # FIXME1: Write 2 new test functions to unittest the save_data and
@@ -35,7 +35,7 @@ def test_get_random_number() -> None:
     """Tests get_random_number function.
     """
     random_number = functions.get_random_number()
-    assert random_number >= 1 and random_number <= 20
+    assert 1 <= random_number <= 20
 
 
 def test_check_guessed() -> None:
