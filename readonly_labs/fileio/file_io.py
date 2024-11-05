@@ -89,7 +89,7 @@ def main() -> None:
         print_list(out_file, integers)
 
         # FIXME 5
-        # Call sortListInDescendingOrder function
+        # Call sort_list_descending_order function
 
         # FIXME 6
         # Write the sorted list in descending order to the output file
@@ -100,7 +100,9 @@ def main() -> None:
         # FIXME 8
         # Print the smallest number to the output file
 
-    print('Done executing the program! Check the output file for results.')
+    print(
+        f'Done executing the program! Check the {output_file_name} \
+            for results.')
 
 
 # FIXME 9
