@@ -4,7 +4,7 @@ Possible Points: 100
 
 ## Guess the Number game
 
-The game generates a random number between 1 and 100 and asks the user to guess the number. The game provides hints to the user if the guess is too high or too low. The game ends when the user guesses the correct number or runs out of attempts. The players stats are stored in a YAML file.
+The game generates a random number between 1 and 20 and asks the user to guess the number. The game provides hints to the user if the guess is too high or too low. The game ends when the user guesses the correct number or runs out of attempts. The players stats are stored in a YAML file.
 
 ## Lab Objectives
 
@@ -35,7 +35,7 @@ pip install rich
 pip install pytest
 ```
 
-2. Learn about rich library here - [https://rich.readthedocs.io/en/stable/introduction.html](https://rich.readthedocs.io/en/stable/introduction.html)
+2. Learn about rich library here - [https://rich.readthedocs.io/en/stable/introduction.html](https://rich.readthedocs.io/en/stable/introduction.html) and **pyyaml** library here - [https://pyyaml.org/wiki/PyYAMLDocumentation](https://pyyaml.org/wiki/PyYAMLDocumentation)
 
 3. Run the lab script and understand what it does.
 
