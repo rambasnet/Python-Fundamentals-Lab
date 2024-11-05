@@ -6,15 +6,6 @@ Possible Points: 100
 
 The game generates a random number between 1 and 100 and asks the user to guess the number. The game provides hints to the user if the guess is too high or too low. The game ends when the user guesses the correct number or runs out of attempts. The game settings are stored in a YAML file. The game should be able to read the settings from the YAML file and use them to run the game.
 
-
-## Lab Setup
-
-1. **tests** package contains the test files for the scripts.
-2. **utility** package contains the utility/helper functions.
-3. **settings.py** contains the game settings as constants.
-4. **main.py** contains the main script to run the game.
-5. **game.py** contains the game logic.
-
 ## Lab Objectives
 
 1. Learn about python packages and modules.
@@ -24,6 +15,15 @@ The game generates a random number between 1 and 100 and asks the user to guess 
 5. Learn about using functions in Python.
 6. Learn about refactoring and modular programming.
 7. Learn about rich library for colorful output.
+
+## Lab Setup
+
+1. **tests** package contains the test files for the scripts.
+2. **utility** package contains the utility/helper functions.
+3. **settings.py** contains the game settings as constants.
+4. **main.py** contains the main script to run the game.
+5. **game.py** contains the game logic.
+
 
 ## Lab Instructions
 
