@@ -35,7 +35,7 @@ pip install rich
 pip install pytest
 ```
 
-2. Learn about rich library here - [https://rich.readthedocs.io/en/stable/introduction.html](https://rich.readthedocs.io/en/stable/introduction.html) and **pyyaml** library here - [https://pyyaml.org/wiki/PyYAMLDocumentation](https://pyyaml.org/wiki/PyYAMLDocumentation)
+2. Learn about **rich** library here - [https://rich.readthedocs.io/en/stable/introduction.html](https://rich.readthedocs.io/en/stable/introduction.html) and **pyyaml** library here - [https://pyyaml.org/wiki/PyYAMLDocumentation](https://pyyaml.org/wiki/PyYAMLDocumentation)
 
 3. Run the lab script and understand what it does.
 
