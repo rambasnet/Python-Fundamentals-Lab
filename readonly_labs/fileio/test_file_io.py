@@ -11,7 +11,7 @@ def test_sort_ascending1() -> None:
     file_io.sort_list_ascending_order(my_nums)
     assert (my_nums == [-6, 0, 9, 10])
 
-# FIXME: add 3 more test cases to test sort_list_ascending_order function
+# FIXME: write 3 more test cases to test sort_list_ascending_order function
 # in separate test functions
 
 
@@ -23,5 +23,5 @@ def test_sort_descending1() -> None:
     assert my_nums == [100, 5, 0, -1, -10]
 
 
-# FIXME: add 3 more test cases to test sort_list_descending_order function
+# FIXME: write 3 more test cases to test sort_list_descending_order function
 # in seeparate test functions
