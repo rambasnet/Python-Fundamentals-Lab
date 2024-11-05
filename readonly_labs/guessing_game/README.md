@@ -27,14 +27,15 @@ The game generates a random number between 1 and 100 and asks the user to guess 
 
 ## Lab Instructions
 
-1. Install **pyyaml**, **rich**, and **pytest** if required.
-2. Learn about rich here - [https://rich.readthedocs.io/en/stable/introduction.html](https://rich.readthedocs.io/en/stable/introduction.html)
+1. Install **pyyaml**, **rich**, and **pytest** Python libraries required for the lab.
 
 ```bash
 pip install pyyaml
 pip install rich
 pip install pytest
 ```
+
+2. Learn about rich library here - [https://rich.readthedocs.io/en/stable/introduction.html](https://rich.readthedocs.io/en/stable/introduction.html)
 
 3. Run the lab script and understand what it does.
 
