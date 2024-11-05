@@ -30,11 +30,11 @@ def read_data() -> List[int]:
     """
     ints: List[int] = []
     # FIXME 1 (20 points):
-    # Prompt user to input file name
+    # Prompt user to enter input file name
     # open the file; read each number one line at a time;
-    # and store it into intList list
+    # and store it into ints list
     # close the file
-    # return the intList
+    # return the ints
     return ints
 
 
@@ -101,8 +101,7 @@ def main() -> None:
         # Print the smallest number to the output file
 
     print(
-        f'Done executing the program! Check the {output_file_name} \
-            for results.')
+        f'All done! Check the {output_file_name} for results.')
 
 
 # FIXME 9
