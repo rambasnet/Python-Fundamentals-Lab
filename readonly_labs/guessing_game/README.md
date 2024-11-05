@@ -27,25 +27,25 @@ The game generates a random number between 1 and 100 and asks the user to guess 
 
 ## Lab Instructions
 
-1. Run the lab script and understand what it does.
+1. Install **pyyaml**, **rich**, and **pytest** if required.
+2. Learn about rich here - [https://rich.readthedocs.io/en/stable/introduction.html](https://rich.readthedocs.io/en/stable/introduction.html)
+
+```bash
+pip install pyyaml
+pip install rich
+pip install pytest
+```
+
+3. Run the lab script and understand what it does.
 
 ```bash
     $ python main.py
 ```
 
-2. Complete **labs/guessing_game** lab by fixing all the FIXMEs. (80 points)
+4. Complete **labs/guessing_game** lab by fixing all the FIXMEs. (80 points)
     - see the folders **tests** and **utility** for the code to be fixed as well
-3. Follow best programming practices by using proper white spaces, comments, etc.
-4. Unittest all the important functions using pytest.
-5. Install **pyyaml**, **rich**, and **pytest** if required.
-6. Learn about rich here - [https://rich.readthedocs.io/en/stable/introduction.html](https://rich.readthedocs.io/en/stable/introduction.html)
-
-```bash
-$ pip install pyyaml
-$ pip install rich
-$ pip install -U pytest
-$ pytest --verbose
-```
+5. Follow best programming practices by using proper white spaces, comments, etc.
+6. Unittest all the important functions using pytest.
 
 7. Test the whole program manually.
 8. Create screenshots showing your local test results (pytest and manual test of main script) and save them to the lab folder. (20 points)
