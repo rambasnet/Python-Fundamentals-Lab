@@ -2,8 +2,8 @@
 Module to test functions.py.
 """
 
-from utility import functions
 from os import path
+from utility import functions
 
 
 def test_save_data() -> None:
