@@ -4,7 +4,7 @@ Possible Points: 100
 
 ## Guess the Number game
 
-The game generates a random number between 1 and 100 and asks the user to guess the number. The game provides hints to the user if the guess is too high or too low. The game ends when the user guesses the correct number or runs out of attempts. The game settings are stored in a YAML file. The game should be able to read the settings from the YAML file and use them to run the game.
+The game generates a random number between 1 and 100 and asks the user to guess the number. The game provides hints to the user if the guess is too high or too low. The game ends when the user guesses the correct number or runs out of attempts. The players stats are stored in a YAML file.
 
 ## Lab Objectives
 
