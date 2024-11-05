@@ -10,6 +10,7 @@ __semester__ = "FIXME"
 
 from typing import Any, List, Dict
 import time
+from rich import print
 from utility import functions
 import settings
 from game import play_game, clear_screen, pause, get_menu_option
@@ -17,12 +18,12 @@ from game import play_game, clear_screen, pause, get_menu_option
 
 def game_intro() -> None:
     clear_screen()
-    print('Welcome to the game...')
+    print('[bold red] Welcome to the game... [/bold red]')
     time.sleep(1)
-    print(settings.ASCII)
+    print(f'[bold yellow on red] {settings.ASCII}')
     time.sleep(1)
-    print("Let's start by entering your name.")
-    print('Are you ready?')
+    print("[italic] Let's start by entering your name.")
+    print('[bold] Are you ready? [/bold]')
     pause()
 
 
@@ -68,7 +69,7 @@ def view_scoreboard(data: List[Any]) -> None:
     Args:
         data (dict): data of all the players in the database
     """
-    # FIXME - print data in tabular format
+    # FIXME - print data in tabular format using rich library
 
 
 if __name__ == "__main__":
