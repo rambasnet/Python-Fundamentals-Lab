@@ -44,4 +44,4 @@ def test_check_guessed() -> None:
     assert functions.check_guessed(5, 5) is True
 
 
-# FIXME3: Write 2 new test function to unittest the check_guessed function.
+# FIXME2: Write 2 new test function to unittest the check_guessed function.
