@@ -19,8 +19,8 @@ Algorithm steps:
 """
 import sys
 
-# create English to Morse Code dictionary
-engToMorse = {
+# Create English to Morse Code dictionary mapping
+ENG_TO_MORSE = {
     'A': '.-',
     'B': '-...',
     'C': '-.-.',
@@ -80,7 +80,7 @@ def convert_to_morse(english: str) -> str:
     morse_code = ''
     # Algorithm steps:
     # For ecah character in english,
-    #   find the morse code of the character using engToMorse dictionary
+    #   find the morse code of the character using ENG_TO_MORSE dictionary
     #   concatenate morse code to morse_code variable if key exists
     #   ignore the key/character if it doesn't exist in the dictionary
     # FIXME 3: implement the above algorithm
@@ -90,7 +90,7 @@ def convert_to_morse(english: str) -> str:
 def solve() -> None:
     # read/input english text as a line
     english = input()
-    # FIXME 4: convert english into uppercase
+    # FIXME 4: convert english text into uppercase
     upper_english = english
     print(upper_english, file=sys.stderr)
     morse_code = convert_to_morse(upper_english)
