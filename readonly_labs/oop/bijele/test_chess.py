@@ -20,13 +20,13 @@ def test__init__() -> None:
 
 
 def test__str__() -> None:
-    """Test the __str__ metho"""
+    """Test the __str__ method"""
     chess = Chess()
     assert str(chess) == '1 1 2 2 2 8'
 
 
-# FIXME - add two test function to __str__ method
-# to test the string representation is correct
+# FIXME - add two test function to test __str__ method
+# to ensure the string representation is correct
 
 def test__diff__():
     """Test the __sub__ method"""
@@ -41,5 +41,5 @@ def test__diff__():
     assert chess3.pawns == 0
 
 
-# FIXME - add two test function to __sub__ method
-# to test the difference is correct
+# FIXME - add two functions to test __sub__ method
+# to ensure the difference is correct
