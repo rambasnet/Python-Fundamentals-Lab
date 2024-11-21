@@ -45,8 +45,12 @@ class TestThreeCupsGame(unittest.TestCase):
         """
         game = ThreeCupsGame()
         self.assertEqual(game.position, 1)
-        game.move_b()
+        game.move_a()
         self.assertEqual(game.position, 2)
+        game.move_c()
+        self.assertEqual(game.position, 2)
+        game.move_a()
+        self.assertEqual(game.position, 1)
         game.move_c()
         self.assertEqual(game.position, 3)
 
