@@ -27,7 +27,7 @@ class TestThreeCupsGame(unittest.TestCase):
         game.move_a()
         self.assertEqual(game.position, 2)
 
-    # FIXME : Add 1 test method to test the move_a method
+    # FIXME : Add 1 new test method to verify the move_a method
 
     def test_move_b(self) -> None:
         """Test the move_b method.
@@ -38,7 +38,7 @@ class TestThreeCupsGame(unittest.TestCase):
         game.move_b()
         self.assertEqual(game.position, 3)
 
-    # FIXME : Add 2 new test methods to test the move_b method
+    # FIXME : Add 2 new test methods to verify the move_b method
 
     def test_move_c(self) -> None:
         """Test the move_c method.
@@ -54,7 +54,7 @@ class TestThreeCupsGame(unittest.TestCase):
         game.move_c()
         self.assertEqual(game.position, 3)
 
-    # FIXME : Add 2 new test methods to test the move_c method
+    # FIXME : Add 2 new test methods to verify the move_c method
 
     def test_get_position(self) -> None:
         """Test the get_position method.
@@ -62,4 +62,4 @@ class TestThreeCupsGame(unittest.TestCase):
         game = ThreeCupsGame()
         self.assertEqual(game.get_position(), 1)
 
-    # FIXME : Add 2 new test methods to test the get_position method
+    # FIXME : Add 2 new test methods to verify the get_position method
