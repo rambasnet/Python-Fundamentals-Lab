@@ -7,7 +7,7 @@ https://open.kattis.com/problems/trik
 Algorithm:
 1. Read the moves.
 2. Create an instance of the ThreeCupsGame class.
-    - initial position of the ball is in left or cup 1.
+    - initial position of the ball is in the left or cup 1.
 3. Iterate through all the moves to update the ball position.
     a. If the move is 'A', call the move_a function.
     b. If the move is 'B', call the move_b function.
