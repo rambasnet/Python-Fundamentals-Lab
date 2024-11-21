@@ -13,8 +13,7 @@ Algorithm:
     b. If the move is 'B', call the move_b function.
     c. Otherwise, call the move_c function.
 
-4. Call the corresponding move function.
-5. Print the final position of the ball.
+4. Print the final position of the ball.
 """
 
 from three_cups_game import ThreeCupsGame
@@ -29,12 +28,12 @@ def main() -> None:
     game = ThreeCupsGame()
     # iterate through the moves
     for move in moves:
-        # call the corresponding move function
+        # call the corresponding move method
         if move == 'A':
             game.move_a()
         elif move == 'B':
             game.move_b()
-        # FIXME 1: otherwise, call the move_c function
+        # FIXME 1: otherwise, call the move_c method
 
     # print the final position of the ball
     print(game.get_position())
