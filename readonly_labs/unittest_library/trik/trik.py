@@ -12,11 +12,10 @@ Algorithm:
     a. If the move is 'A', call the move_a function.
     b. If the move is 'B', call the move_b function.
     c. Otherwise, call the move_c function.
-
 4. Print the final position of the ball.
 """
 
-from three_cups_game import ThreeCupsGame
+from library.three_cups_game import ThreeCupsGame
 
 
 def main() -> None:
@@ -36,7 +35,8 @@ def main() -> None:
         # FIXME 1: otherwise, call the move_c method
 
     # print the final position of the ball
-    print(game.get_position())
+    # FIXME 2: use game object to call the position getter method
+    print(1)
 
 
 if __name__ == '__main__':
