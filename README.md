@@ -12,14 +12,14 @@
 
 ## Lab 1
 
-| Name        | Value                                                  |
-| :---------- | :----------------------------------------------------- |
-| Name        | L1 - Std IO                                            |
-| Description | FIXME                                                  |
-| Due Date    | FIXME                                                  |
-| Status      | FIXME                                                  |
-| Self Grade  | xx/100                                                 |
-| Notes       | learned about variables and standard input and output. |
+| Name        | Value                                                                                             |
+| :---------- | :------------------------------------------------------------------------------------------------ |
+| Name        | L1 - Std IO                                                                                       |
+| Description | FIXME                                                                                             |
+| Due Date    | FIXME                                                                                             |
+| Status      | FIXME                                                                                             |
+| Self Grade  | xx/100                                                                                            |
+| Notes       | fixed all the fixmes; code runs correctly; learned about variables and standard input and output. |
 
 ## Lab 0
 
