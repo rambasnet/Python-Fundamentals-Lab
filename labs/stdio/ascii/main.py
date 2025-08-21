@@ -1,5 +1,5 @@
 """
-    StdIO Lab
+    StdIO Lab A
     ASCII Art - using literals and variables
     
     Updated By: <Your name> #FIXME1
