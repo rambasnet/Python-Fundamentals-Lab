@@ -1,30 +1,17 @@
-# CS0 - Lab - Variables and Std IO - Kattis: Hipp Hipp
+# CS0 - Variables and Standard Input/Output
 
-Possible points: 100
-
-## Variables and Std IO Lab B: Hipp Hipp
+## Lab B: Hipp Hipp
 
 Read and solve the Kattis problem: https://open.kattis.com/problems/hipphipp
 
 ### Lab Instructions
 
-1. Type the code provided in labs/stdio/hipphipp/hiphipp.py file as it is
+1. Type the code provided in hiphipp.py file as it is
 2. Run the script to make sure the code runs without any syntax error
 3. Fix all the FIXMEs and write #fixed# at the end of each FIXME that’s fixed except at the end of your name and date.
-4. The completed lab should produce an output that looks like the following:
-
-```
-   |\_/|       *****************************     (\_/)
-  / @ @ \      *        ASCII Lab          *    (='.'=)
- ( > 0 < )     *       Ram Basnet          *  ( " )_( " )
-   >>x<<       *        Fall 2024          *
-  /  O  \      *        CSCI 110           *
-               *****************************
-```
-
-Note: The figure on the right (looks like a mouse) uses both single ( ' ) and double quotes ( " ) and you must find a way to print both single and double quotes as shown.
-
-4. Create a screenshots folder; create a screenshot of the completed program with the final output displayed on the Terminal and save it into the folder. (10 points)
+4. Create a folder called **screenshots**
+   - create a screenshot of the completed program with the final output displayed on the Terminal and save it into the folder. (5 points)
+   - create a screenshot of Kattis acceptance verdict (5 points)
 5. Update your README file (10 points) as shown here: https://github.com/rambasnet/csci000-astudent
 6. All FIXMEs are worth equal points unless stated otherwise.
 

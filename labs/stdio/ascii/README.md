@@ -1,35 +1,48 @@
-# CS0 - Lab - Variables and Std IO - ASCII Art
+# Variables and Std IO
 
 Possible points: 100
 
-## Variables and Std IO Lab A: ASCII Art
+## Lab A: ASCII Art
 
 Write a Python program that displays some ASCII arts on to the Console/Terminal or standard output using variables.
 
 ### Lab Instructions
 
-1. Run labs/stdio/ascii/main.py file as it is to ensure the given lab runs
-2. Fix all the FIXMEs and write #fixed# at the end of each FIXME that’s fixed except at the end of your name and date.
-3. The completed lab should produce an output that looks like the following:
+2. Open your Lab Repository in your favourite IDE
+3. Create a lab folder called ascii
+4. In ascii folder, create a new file: main.py
+5. Type the code stub in main.py file as a hint to complete the lab
+6. Never copy-paste code; you’ll not learn anything by doing so!
+7. Type each line of code and use incremental development techniques to learn what the given code does and what happens when you add each line(s) of new code to complete your lab.
+8. Do git add, commit and push as often as possible after every significant improvement or after each fixme is fixed and tested so you are familiar with the git commands, and you have a working backup.
+9. Add, and commit files to local git repo then push to remote.
+
+- $ git add main.py
+- $ git commit -m “create main.py file”
+- $ git push
+
+10. Fix all the FIXMEs and write #fixed# at the end of each FIXME that’s fixed except at the end of your name and date.
+11. The completed lab should produce an output that looks like the following:
+    a. Note: replace the placeholder < > with actual value/data.
 
 ```
    |\_/|       *****************************     (\_/)
   / @ @ \      *        ASCII Lab          *    (='.'=)
- ( > 0 < )     *       Ram Basnet          *  ( " )_( " )
-   >>x<<       *        Fall 2024          *
+ ( > 0 < )     *       <Your Name>         *  ( " )_( " )
+   >>x<<       *     <Semester Year>       *
   /  O  \      *        CSCI 110           *
                *****************************
 ```
 
 Note: The figure on the right (looks like a mouse) uses both single ( ' ) and double quotes ( " ) and you must find a way to print both single and double quotes as shown.
 
-4. Create a screenshots folder; create a screenshot of the completed program with the final output displayed on the Terminal and save it into the folder. (10 points)
-5. Update your README file (10 points) as shown here: https://github.com/rambasnet/csci000-astudent
-6. All FIXMEs are worth equal points unless stated otherwise.
+12. Create a screenshot of the completed program with the final output displayed on the Terminal and save it to the current lab folder. (10 points)
+13. When done, update your README file (10 points) as shown here: https://github.com/rambasnet/CSXXX-rbasnet
+14. All FIXMEs are worth equal points unless stated otherwise.
 
 ## Submission
 
-- Add all the relevant source file(s), documents, and screenshots into the correct lab folder and do a final add, commit, and push before the due date.
+Add all the relevant source file(s), documents, and screenshots into the correct lab folder and do a final add, commit, and push before the due date.
 
 ```bash
 $ git pull
@@ -41,4 +54,4 @@ $ git push
 $ git status
 ```
 
-- Check and make sure the files are actually pushed to your remote GitHub repository.
+- Check and make sure the files are actually pushed to your remote GitHub.
