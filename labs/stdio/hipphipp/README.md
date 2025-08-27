@@ -4,7 +4,7 @@
 
 Read and solve the Kattis problem: https://open.kattis.com/problems/hipphipp
 
-## Kattis Setup
+## Kattis-cli Setup
 
 If not done before:
 
