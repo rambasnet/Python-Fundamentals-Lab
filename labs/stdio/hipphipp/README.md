@@ -39,7 +39,7 @@ kattis test
 kattis submit
 ```
 
-### Lab Instructions
+## Lab Instructions
 
 1. Type the partial code provided in hiphipp.py file as it is in the current lab folder
 2. Run the script to make sure the code runs without any syntax error
