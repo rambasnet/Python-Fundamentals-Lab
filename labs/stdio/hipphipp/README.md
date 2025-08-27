@@ -31,7 +31,7 @@ Print as asked: nothing less; nothing more!
 ## Whole program test with Kattis-CLI
 
 1. Test the whole program manually. While testing, provide input using the same format as described in the Input section and shown in input samples.
-2. Add three new input and corresponding output files like the sample files inside data folder (10 points)
+2. Add three (3) new input and corresponding answer files like the sample files inside data folder (10 points)
 3. Test locally and submit to Kattis once all the tests pass
 
 ```bash
