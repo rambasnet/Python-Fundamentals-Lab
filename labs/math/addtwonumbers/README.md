@@ -13,10 +13,10 @@ If not done before:
 
 ## Download problem sample data and metadata
 
-1. Change working directory to `labs/math/` and execute the following Kattis command:
+1. Change the working directory to the current lab directory and execute the following Kattis command:
 
 ```bash
-cd labs/math/
+cd <lab directory>
 kattis get addtwonumbers
 cd addtwonumbers
 kattis test
@@ -26,8 +26,8 @@ kattis test
 3. Follow best programming practices by using proper white spaces, comments, etc.
 
 ```txt
-- IMPORTANT: Never ask/prompt the user telling what to do for Kattis problems. Kattis knows what to enter. 
-- Directly read the input. Print only the answer as displayed in the sample output. 
+- IMPORTANT: Never ask/prompt the user telling what to do for Kattis problems. Kattis knows what to enter.
+- Directly read the input. Print only the answer as displayed in the sample output.
 Print as asked: nothing less; nothing more!
 - Kattis is a computer program that provides specific input and expects exact output – to a space to give the correct verdict.
 ```
@@ -46,7 +46,7 @@ kattis submit
 ## Submission
 
 1. Create screenshots showing your local testing and the kattis final Accept verdict and save them to the **addtwonumbers/screenshots** folder. (10 points)
-2. Update your `labs/README.md` file (10 points) as shown here: https://github.com/rambasnet/csci000-astudent
+2. Update the `README.md` file (10 points) as shown here: https://github.com/rambasnet/csXXX-rbasnet
 
 ```bash
 git pull
