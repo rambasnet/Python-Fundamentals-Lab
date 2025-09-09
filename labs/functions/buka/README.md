@@ -24,8 +24,9 @@ kattis test
 
 ## Type and fix the code
 
-1. Type the contents in `buka.py` file and fix all fixmes. Write #fixed# after each #fixme.
-2. Follow best programming practices by using proper white spaces, comments, etc.
+1. Create an empty file named `buka.py` in `buka` folder.
+2. Type the contents in `buka.py` file and fix all fixmes. Write #fixed# after each #fixme.
+3. Follow best programming practices by using proper white spaces, comments, etc.
 
 ```txt
 - IMPORTANT: Never ask/prompt the user telling what to do for Kattis problems. Kattis knows what to enter.

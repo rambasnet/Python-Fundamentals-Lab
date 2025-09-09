@@ -24,8 +24,9 @@ kattis test
 
 ## Type and fix the code
 
-1. Update thelastproblem.py file and fix all fixmes. Write #fixed# after each #fixme.
-2. Follow best programming practices by using proper white spaces, comments, etc.
+1. Create an empty file named `thelastproblem.py` and `test_thelastproblem.py` in `thelastproblem` folder.
+2. Type the contents provided in `thelastproblem.py` and `test_thelastproblem.py` files and fix all fixmes. Write #fixed# after each #fixme.
+3. Follow best programming practices by using proper white spaces, comments, etc.
 
 ```txt
 IMPORTANT: Never ask the user telling what data to enter for Kattis problems. Kattis knows what to enter.
