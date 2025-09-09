@@ -16,7 +16,7 @@ If not done before:
 1. Change working directory to `stdio` and execute the following Kattis command:
 
 ```bash
-cd stdio
+cd <lab directory>
 kattis get hipphipp
 cd hipphipp
 ```

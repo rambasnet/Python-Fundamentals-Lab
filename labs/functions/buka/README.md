@@ -13,21 +13,23 @@ If not done before:
 
 ## Download problem sample data and metadata
 
-1. Change working directory to `labs/functions/` and execute the following Kattis command:
+1. Change working directory to the current lab directory and execute the following Kattis command:
 
 ```bash
-cd labs/functions/
+cd <lab directory>
 kattis get buka
 cd buka
 kattis test
 ```
 
-2. Update `buka.py` file and fix all fixmes. Write #fixed# after each #fixme.
-3. Follow best programming practices by using proper white spaces, comments, etc.
+## Type and fix the code
+
+1. Type the contents in `buka.py` file and fix all fixmes. Write #fixed# after each #fixme.
+2. Follow best programming practices by using proper white spaces, comments, etc.
 
 ```txt
-- IMPORTANT: Never ask/prompt the user telling what to do for Kattis problems. Kattis knows what to enter. 
-- Directly read the input. Print only the answer as displayed in the sample output. 
+- IMPORTANT: Never ask/prompt the user telling what to do for Kattis problems. Kattis knows what to enter.
+- Directly read the input. Print only the answer as displayed in the sample output.
 Print as asked: nothing less; nothing more!
 - Kattis is a computer program that provides specific input and expects exact output – to a space to give the correct verdict.
 ```

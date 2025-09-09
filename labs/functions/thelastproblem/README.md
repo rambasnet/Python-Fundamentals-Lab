@@ -13,19 +13,21 @@ If not done before:
 
 ## Download problem sample data and metadata
 
-1. Change working directory to `labs/functions/` and execute the following Kattis command:
+1. Change working directory to the current lab directory and execute the following Kattis command:
 
 ```bash
-cd labs/functions
+cd <lab directory>
 kattis get thelastproblem
 cd thelastproblem
 kattis test
 ```
 
-2. Update thelastproblem.py file and fix all fixmes. Write #fixed# after each #fixme.
-3. Follow best programming practices by using proper white spaces, comments, etc.
+## Type and fix the code
 
-```
+1. Update thelastproblem.py file and fix all fixmes. Write #fixed# after each #fixme.
+2. Follow best programming practices by using proper white spaces, comments, etc.
+
+```txt
 IMPORTANT: Never ask the user telling what data to enter for Kattis problems. Kattis knows what to enter.
 Directly read the input. Print only the answer as displayed in the sample output.
 Print as asked: nothing less; nothing more!
@@ -57,22 +59,22 @@ pip install -U pytest
 - Note that test modules must have prefix `test_` for pytest to find it.
 
 ```bash
-cd labs/functions/thelastproblem
+cd <thelastproblem directory>
 pytest --verbose
 python -m pytest --verbose
 ```
 
 ## Submission
 
-1. Create screenshots showing your local testings (kattis test and pytest results) and the kattis final **Accept** verdict and save them to the **thelastproblem/screenshots** folder. (10 points)
-2. Update your `labs/README.md` file (10 points) as shown here: https://github.com/rambasnet/csci000-astudent
+1. Create screenshots showing your local tests (kattis test and pytest results) and the kattis final **Accept** verdict and save them to the **thelastproblem/screenshots** folder. (10 points)
+2. Update your `labs/README.md` file (10 points) as shown here: https://github.com/rambasnet/csxxx-rbasnet
 
 ```bash
 git pull
 git status
 git add <each file in the red that is part of this lab>
 git status
-git commit -m "Final submission of <problem id>"
+git commit -m "write brief description of what was done"
 git push
 git status
 ```

@@ -1,15 +1,15 @@
 """
 User-defined functions and Unittest Lab
-Updated By: FIXME
+Completed By: FIXME
 CSCI 110 Lab
 Date: FIXME
 
 Read and solve - The Last Problem: https://open.kattis.com/problems/thelastproblem
 
 Algorithm:
-1. Read the input string using function
-3. Create the output as asked and print it using function
-3. Test functions using test cases
+1. Read the input string using a user-defiend function
+3. Create the output as asked and print it using a function
+3. Test functions using different test cases
 """
 
 import sys
