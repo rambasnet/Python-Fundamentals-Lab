@@ -22,7 +22,7 @@ cd addtwonumbers
 kattis test
 ```
 
-2. Update `addtwonumbers.py` file and fix all fixmes. Write #fixed# after each #fixme.
+2. Type the contents in `addtwonumbers.py` file and fix all fixmes. Write #fixed# after each #fixme.
 3. Follow best programming practices by using proper white spaces, comments, etc.
 
 ```txt
