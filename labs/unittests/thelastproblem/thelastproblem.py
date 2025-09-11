@@ -1,10 +1,10 @@
 """
-User-defined functions and Unittest Lab
+Functions and Unittest Lab
 Completed By: FIXME
 CSCI 110 Lab
 Date: FIXME
 
-Read and solve - The Last Problem: https://open.kattis.com/problems/thelastproblem
+Solution to The Last Problem: https://open.kattis.com/problems/thelastproblem
 
 Algorithm:
 1. Read the input string using a user-defiend function

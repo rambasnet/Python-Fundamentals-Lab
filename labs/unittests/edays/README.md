@@ -1,8 +1,8 @@
-# CS0 Lab - User-defined Functions and Unittest
+# CS0 Lab - Functions and Unittest
 
 Possible Points: 100
 
-Write a Python program to solve the Kattis problem: thelastproblem [https://open.kattis.com/problems/thelastproblem](https://open.kattis.com/problems/thelastproblem). Note that the last part of the URL, e.g. `thelastproblem` is the problem id. Read the problem statement carefully to design a correct solution.
+Write a Python program to solve the Kattis problem: edays [https://open.kattis.com/problems/edays](https://open.kattis.com/problems/edays). Note that the last part of the URL, e.g. `edays` is the problem id. Read the problem statement carefully to design a correct solution.
 
 ## Kattis Setup
 
@@ -17,15 +17,15 @@ If not done before:
 
 ```bash
 cd <lab directory>
-kattis get thelastproblem
-cd thelastproblem
+kattis get edays
+cd edays
 kattis test
 ```
 
 ## Type and fix the code
 
-1. Create an empty file named `thelastproblem.py` and `test_thelastproblem.py` in `thelastproblem` folder.
-2. Type the contents provided in `thelastproblem.py` and `test_thelastproblem.py` files and fix all fixmes. Write #fixed# after each #fixme.
+1. Create an empty file named `edays.py` and `test_edays.py` in `edays` folder.
+2. Type the contents provided in `edays.py` and `test_edays.py` files and fix all fixmes. Write #fixed# after each #fixme.
 3. Follow best programming practices by using proper white spaces, comments, etc.
 
 ```txt
@@ -60,14 +60,14 @@ pip install -U pytest
 - Note that test modules must have prefix `test_` for pytest to find it.
 
 ```bash
-cd <thelastproblem directory>
+cd <edays directory>
 pytest --verbose
 python -m pytest --verbose
 ```
 
 ## Submission
 
-1. Create screenshots showing your local tests (kattis test and pytest results) and the kattis final **Accept** verdict and save them to the **thelastproblem/screenshots** folder. (10 points)
+1. Create at least 3 screenshots showing your local tests (kattis test and pytest results) and the kattis final **Accept** verdict and save them to the **edays/screenshots** folder. (10 points).
 2. Update the `README.md` file (10 points) as shown here: https://github.com/rambasnet/csXXX-rbasnet
 
 ```bash
