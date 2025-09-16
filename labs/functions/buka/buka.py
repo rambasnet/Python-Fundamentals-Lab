@@ -8,7 +8,7 @@ Solution to Kattis problem - Buka: https://open.kattis.com/problems/buka
 
 Algorithm steps:
   1. read the first line or 1st operand into a variable
-  3. read the 2nd line or operator into a variable
+  2. read the 2nd line or operator into a variable
   3. read the 3rd line or 2nd operand into a variable
   4. concatenate the varialbes into a single string
   5. use the built-in eval function on the concatenated string
@@ -18,7 +18,7 @@ Algorithm steps:
 import sys
 
 
-def main():
+def main() -> None:
     """Main function that solves the problem
     """
     # define a main function
@@ -27,7 +27,7 @@ def main():
     A = sys.stdin.readline().strip()
     # let's check the value read...
     print(f'{A=}', file=sys.stderr)
-    # FIXME3 - using sys library, read/input the 2nd line into operator
+    # FIXME3 - using sys library, read the 2nd line into operator variable
     # variable
     # FIXME4 - using sys library, read/input the 2nd operand into B variable
     # FIXME5 - concatenate all three variables into a single variable called

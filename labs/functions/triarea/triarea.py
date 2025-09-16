@@ -26,7 +26,7 @@ def triarea(base: int, height: int) -> float:
     return area
 
 
-def solve():
+def solve() -> None:
     """Main function that solves the problem"""
     # FIXME2: Read a line of input from stdin and split into base and height
     # Example input: "3 4"

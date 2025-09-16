@@ -49,7 +49,7 @@ kattis submit
 ## Submission
 
 1. Create screenshots showing your local testing and the kattis final Accept verdict and save them to the **triarea/screenshots** folder. (10 points)
-2. Update the `README.md` file (10 points) as shown here: https://github.com/rambasnet/csXXX-rbasnet
+2. Update the `README.md` file (10 points) as shown here: https://github.com/rambasnet/CSXXX-rbasnet
 
 ```bash
 git pull

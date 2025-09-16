@@ -49,7 +49,7 @@ kattis submit
 ## Submission
 
 1. Create screenshots showing your local testing and the kattis final Accept verdict and save them to the **buka/screenshots** folder. (10 points)
-2. Update your `labs/README.md` file (10 points) as shown here: https://github.com/rambasnet/csci000-astudent
+2. Update your `README.md` file (10 points) as shown here: https://github.com/rambasnet/csci000-astudent
 
 ```bash
 git pull
