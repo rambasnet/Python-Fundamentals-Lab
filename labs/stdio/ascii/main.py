@@ -28,7 +28,7 @@ print("This is " + semester + " semester.\n")
 
 print("Hope you like my ASCII art...\n\n")
 
-line1: str = "  |\\_/|   **********************    (\\_/)\n"
+line1: str = "  |\\_/|   **********************    (\\_/)"
 print(line1)
 
 # FIXME7: use variable to print the second line of the graphic
