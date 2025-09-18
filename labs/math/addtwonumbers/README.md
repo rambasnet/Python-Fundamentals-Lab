@@ -17,8 +17,11 @@ If not done before:
 
 ```bash
 cd <lab directory>
+ls
 kattis get addtwonumbers
+ls
 cd addtwonumbers
+ls
 kattis test
 ```
 
@@ -49,6 +52,8 @@ kattis submit
 2. Update the `README.md` file (10 points) as shown here: https://github.com/rambasnet/csXXX-rbasnet
 
 ```bash
+cd <main repo folder>
+ls
 git pull
 git status
 git add <each file in the red that is part of this lab>

@@ -14,6 +14,13 @@ Write a Python program that displays some ASCII arts on to the Console/Terminal 
 5. Type the code stub in main.py file as a hint to complete the lab
 6. Never copy-paste code; you’ll not learn anything by doing so!
 7. Type each line of code and use incremental development techniques to learn what the given code does and what happens when you add each line(s) of new code to complete your lab.
+
+```bash
+cd <lab folder>
+ls
+python <python file>
+```
+
 8. Do git add, commit and push as often as possible after every significant improvement or after each fixme is fixed and tested so you are familiar with the git commands, and you have a working backup.
 9. Add, and commit files to local git repo then push to remote.
 

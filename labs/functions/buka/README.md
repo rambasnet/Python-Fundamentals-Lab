@@ -17,8 +17,11 @@ If not done before:
 
 ```bash
 cd <lab directory>
+ls
 kattis get buka
+ls
 cd buka
+ls
 kattis test
 ```
 
@@ -52,6 +55,8 @@ kattis submit
 2. Update your `README.md` file (10 points) as shown here: https://github.com/rambasnet/csci000-astudent
 
 ```bash
+cd <main repo folder>
+ls
 git pull
 git status
 git add <each file in the red that is part of this lab>

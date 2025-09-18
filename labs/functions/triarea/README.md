@@ -17,8 +17,11 @@ If not done before:
 
 ```bash
 cd <lab directory>
+ls
 kattis get triarea
+ls
 cd triarea
+ls
 kattis test
 ```
 
@@ -52,11 +55,12 @@ kattis submit
 2. Update the `README.md` file (10 points) as shown here: https://github.com/rambasnet/CSXXX-rbasnet
 
 ```bash
+cd <main repo folder>
 git pull
 git status
 git add <each file in the red that is part of this lab>
 git status
-git commit -m "Final submission of <problem id>"
+git commit -m "Final submission of <probolem id>"
 git push
 git status
 ```
