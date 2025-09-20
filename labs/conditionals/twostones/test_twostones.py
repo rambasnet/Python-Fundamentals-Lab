@@ -6,7 +6,7 @@ import twostones
 
 
 def test_odd_even():
-    """Function to test odd_even function
+    """Function to test odd_even function.
     """
     number = 99999
     expected = "odd"
