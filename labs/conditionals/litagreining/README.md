@@ -18,7 +18,7 @@ If not done before:
 ```bash
 cd /workspaces/<your git repo>
 git pull
-cd conditionals/
+cd <lab folder>
 ls
 kattis get <problem id>
 ls

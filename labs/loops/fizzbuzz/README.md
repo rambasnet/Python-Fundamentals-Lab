@@ -1,8 +1,8 @@
-# CS0 Lab A - Conditionals and Unit testing - A
+# CS0 Lab - Loops and Unit testing - B
 
 Possible Points: 100
 
-Write a Python program to solve the Kattis problem with id **twostones** [https://open.kattis.com/problems/twostones](https://open.kattis.com/problems/twostones). Read the problem statement carefully to design a correct solution. Note that the last part of the URL (twostones) is the problem id.
+Write a Python program to solve the Kattis problem id - fizzbuzz [https://open.kattis.com/problems/fizzbuzz](https://open.kattis.com/problems/fizzbuzz). Read the problem statement carefully to design a correct solution using unittest.
 
 ## Kattis Setup
 
@@ -23,19 +23,37 @@ ls
 kattis get <problem id>
 ls
 cd <problem id>
-ls
 ```
 
-2. Type and run the given partial solution as it is to learn what it does.
-3. Fix all FIXMEs. Write #fixed# after each FIXME.
-4. Run `kattis test` and `pytest -v` to see if the fixes are correct after each fix.
-5. Follow best programming practices by using proper white spaces, comments, etc.
+2. Run the given partial solution to understand what it does.
+3. Update <problem id>.py file and fix all fixmes. Write #fixed# after each #fixme.
+4. Follow best programming practices by using proper white spaces, comments, etc.
 
 ```
 IMPORTANT: Never ask the user telling what data to enter for Kattis problems. Kattis knows what to enter.
 Directly read the input. Print only the answer as displayed in the sample output.
 Print as asked: nothing less; nothing more!
 Kattis is a computer program that provides specific input and expects exact output – to a space to give the correct verdict.
+```
+
+## Unit testing with Pytest
+
+1. Install pytest library if required
+
+```bash
+pytest --version
+pip install -U pytest
+```
+
+2. Run unit test using pytest and create screenshot when all the test cases pass. Install pytest if required. Pick one of the following ways to run pytest.
+
+- Note that test modules must have prefix `test_` for pytest to find it.
+
+```bash
+
+cd <problem id>
+pytest --verbose .
+python -m pytest --verbose
 ```
 
 ## Whole program test with Kattis-cli
@@ -49,29 +67,10 @@ kattis test
 kattis submit
 ```
 
-## Unit testing with Pytest
-
-1. Insall pytest library if required
-
-```bash
-pytest --version
-pip install -U pytest
-```
-
-2. Run unit test using pytest and create screenshot when all the test cases pass. Install pytest if required. Pick one of the following ways to run pytest.
-
-- Note that test modules must have prefix `test_` for pytest to find it.
-
-```bash
-cd <problem id>
-pytest --verbose
-python -m pytest --verbose
-```
-
 ## Submission
 
-1. Create screenshots showing your local testings (kattis test and pytest results) and the kattis final **Accept** verdict and save them to the **thelastproblem/screenshots** folder. (10 points)
-2. Update the `README.md` file (10 points) as shown here: https://github.com/rambasnet/csxxx-rbasnet
+1. Create screenshots showing your local testings (kattis test and pytest results) and the kattis final **Accept** verdict and save them to the **screenshots** folder in the current lab folder. (10 points)
+2. Update `README.md` file (10 points) as shown here: <https://github.com/rambasnet/CSXXX-rbasnet>
 
 ```bash
 cd /workspaces/<your git repo>

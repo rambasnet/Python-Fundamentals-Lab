@@ -1,4 +1,4 @@
-# CS0 Lab - Loops and Unittesting
+# CS0 Lab - Loops and Unit testing - A
 
 Possible Points: 100
 
@@ -16,11 +16,14 @@ If not done before:
 1. Execute the following commands:
 
 ```bash
+cd /workspaces/<your git repo>
 git pull
-cd labs/loops/
+cd <lab folder>
+ls
 kattis get <problem id>
+ls
 cd <problem id>
-kattis test
+ls
 ```
 
 2. Run the given partial solution to understand what it does.
@@ -48,7 +51,7 @@ pip install -U pytest
 - Note that test modules must have prefix `test_` for pytest to find it.
 
 ```bash
-cd labs/loops/<problem id>
+cd <problem id>
 pytest --verbose
 python -m pytest --verbose
 ```
@@ -67,7 +70,7 @@ kattis submit
 ## Submission
 
 1. Create screenshots showing your local testings (kattis test and pytest results) and the kattis final **Accept** verdict and save them to the **screenshots** folder in the current lab folder. (10 points)
-2. Update your `labs/README.md` file (10 points) as shown here: <https://github.com/rambasnet/csci000-astudent>
+2. Update the `README.md` file (10 points) as shown here: <https://github.com/rambasnet/CSXXX-rbasnet>
 
 ```bash
 cd /workspaces/<your git repo>
