@@ -43,7 +43,7 @@ Print as asked: nothing less; nothing more!
 1. Test the whole program manually. While testing, provide input using the same format as described in the Input section and shown in input samples.
 2. Add three new input and corresponding output files like the sample files inside data folder (10 points)
 3. Test locally and submit to Kattis once all the tests pass
-4. Since the problem needs floating point output, use `kattis test -a 1e-6` to allow small (10^-6) floating point error.
+4. Since the problem needs floating point output, use `kattis test -a 6` to allow small (10^-6) floating point error.
 
 ```bash
 kattis test -a 6
