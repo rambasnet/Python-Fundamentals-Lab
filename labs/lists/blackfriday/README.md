@@ -1,8 +1,8 @@
-# CS0 Lab - Lists and Unit testing - A
+# CS0 Lab - Lists and Unit testing - B
 
 Possible Points: 100
 
-Write a Python program to solve the Kattis problem with id - pet: [https://open.kattis.com/problems/pet](https://open.kattis.com/problems/pet). Read the problem statement carefully to design a correct solution.
+Write a Python program to solve the Kattis problem with id - blackfriday: [https://open.kattis.com/problems/blackfriday](https://open.kattis.com/problems/blackfriday). Read the problem statement carefully to design a correct solution.
 
 ## Kattis Setup
 
@@ -25,7 +25,7 @@ cd <problem id>
 ls
 ```
 
-2. Type and run the given partial solution <problemid.py> file to understand what it does.
+2. Type and run the given partial solution `<problemid>.py` file to understand what it does.
 3. Update all the Python files `<problemid>.py` and `test_<problemid>.py` by fixing all the FIXMEs. Write #fixed# after each #FIXME.
 4. Follow best programming practices by using proper white spaces, comments, etc.
 
@@ -50,7 +50,7 @@ pytest --version
 
 ```bash
 cd <problem id>
-pytest --verbose .
+pytest -v .
 ```
 
 ## Whole Program test with Kattis-cli
