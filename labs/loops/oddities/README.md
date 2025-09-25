@@ -83,4 +83,4 @@ git push
 git status
 ```
 
-3. Make sure the files are actually pushed to your remote GitHub repo.
+3. Make sure the files are pushed to your remote GitHub repo.
