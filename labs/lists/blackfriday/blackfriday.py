@@ -38,7 +38,7 @@ def max_unique_index(data: List[int]) -> int:
     Args:
         data (List[int]): List of integers
     Returns:
-        int: index of the participant with the highest unique outcome, or -1 if none
+        int: index of the participant with the highest unique outcome, or -1
     """
     max_index = -1
     max_value = -1

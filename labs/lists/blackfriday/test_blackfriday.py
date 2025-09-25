@@ -24,4 +24,4 @@ def test_max_unique_index_no_unique() -> None:
     nums = [1, 2, 2, 1]
     assert max_unique_index(nums) == -1
 
-# FIXME:5 Write at least three more test cases
+# FIXME 5: Write at least three more test cases
