@@ -1,5 +1,5 @@
 """
-Strings and Unittest Lab
+Strings and Unittest Lab - B
 Updated By: FIXME
 CSCI 110 Lab
 Date: FIXME

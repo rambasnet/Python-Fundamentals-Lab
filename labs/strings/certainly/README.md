@@ -1,8 +1,8 @@
-# CS0 Lab - Strings - B
+# CS0 Lab - Strings - A
 
 Possible Points: 100
 
-Write a Python program to solve the Kattis problem id - simonsays [https://open.kattis.com/problems/simonsays](https://open.kattis.com/problems/simonsays). Read the problem statement carefully to design a correct solution using unittest.
+Write a Python program to solve the Kattis problem id - certainly [https://open.kattis.com/problems/certainly](https://open.kattis.com/problems/certainly). Read the problem statement carefully to design a correct solution using unittest.
 
 ## Kattis Setup
 
