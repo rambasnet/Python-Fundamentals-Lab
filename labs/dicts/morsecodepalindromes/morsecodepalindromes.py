@@ -1,10 +1,10 @@
 """
-Dictionary and Unittest Lab
+Dictionary and Unittest Lab - A
 Updated By: FIXME
 CSCI 110 Lab
 Date: FIXME
 
-Solution for Kattis problem - Morse Code Palindromes - https://open.kattis.com/problems/morsecodepalindromes  
+Kattis problem - Morse Code Palindromes - https://open.kattis.com/problems/morsecodepalindromes  
 
 Given english text, the program finds if the corresponding morse code is a palindrome.
 
