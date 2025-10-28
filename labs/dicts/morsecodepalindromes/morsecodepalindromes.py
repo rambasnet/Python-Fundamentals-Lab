@@ -88,6 +88,8 @@ def convert_to_morse(english: str) -> str:
 
 
 def solve() -> None:
+    """Main entry function that solves the problem.
+    """
     # read/input english text as a line
     english = input()
     # FIXME 4: convert english text into uppercase

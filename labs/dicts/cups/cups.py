@@ -20,6 +20,7 @@ Algorithm steps:
 """
 
 import sys
+from typing import Dict
 
 
 def sort_cups(cups: dict) -> list:
@@ -38,11 +39,13 @@ def sort_cups(cups: dict) -> list:
     return ans
 
 
-def main():
+def main() -> None:
+    """Main entry function.
+    """
     # read the first line
     n = int(sys.stdin.readline().strip())
     # FIXME1: initialize cups as an empty dictionary
-    cups = None
+    cups: Dict[int, str] = None
     for _ in range(n):
         # FIXME2 : read each line and split it into two variables
         # FIXME3 : add radius (int) as a key and color as a value to cups

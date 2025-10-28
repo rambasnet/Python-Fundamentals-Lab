@@ -1,4 +1,4 @@
-# CS0 Lab - Game and Unit testing
+# CS0 Final Lab - Game and Unit testing
 
 Possible Points: 100
 
@@ -24,7 +24,6 @@ The game generates a random number between 1 and 20 and asks the user to guess t
 4. **main.py** contains the main script to run the game.
 5. **game.py** contains the game logic.
 
-
 ## Lab Instructions
 
 1. Install **pyyaml**, **rich**, and **pytest** Python libraries required for the lab.
@@ -43,14 +42,18 @@ pip install pytest
     $ python main.py
 ```
 
-4. Complete **labs/guessing_game** lab by fixing all the FIXMEs. (80 points)
-    - see the folders **tests** and **utility** for the code to be fixed as well
+4. Use the partial implementation to complete **guessing_game** lab by fixing all the FIXMEs. (80 points)
+   - see the packages **tests** and **utility** for the code to be fixed as well
 5. Follow best programming practices by using proper white spaces, comments, etc.
-6. Unittest all the important functions using pytest.
+6. Write Unittests for all the important fruitful functions and test using pytest.
+
+```bash
+    $ pytest -v tests/
+```
 
 7. Test the whole program manually.
-8. Create screenshots showing your local test results (pytest and manual test of main script) and save them to the lab folder. (20 points)
-9. Update your README file (10 points) as shown here: [https://github.com/rambasnet/csci000-astudent](https://github.com/rambasnet/csci000-astudent)
+8. Create screenshots showing your local test results (pytest and manual test of main script) and save them to the current lab folder. (20 points)
+9. Update your README file (10 points with justification of self-grade) as shown here: [https://github.com/rambasnet/csxxx-rbasnet](https://github.com/rambasnet/csxxx-rbasnet)
 
 ## Submission
 
@@ -66,4 +69,4 @@ $ git push
 $ git status
 ```
 
-- Check and make sure the files are actually pushed to your GitHub repo on github.com.
+- Check and make sure the files are actually pushed to your GitHub repo.

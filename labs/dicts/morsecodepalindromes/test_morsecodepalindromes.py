@@ -1,4 +1,4 @@
-"""Module to test functions in morsecode.py 
+"""Module to test functions in morsecodepalindromes.py 
 """
 
 import morsecodepalindromes
