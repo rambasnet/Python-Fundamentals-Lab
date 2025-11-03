@@ -19,8 +19,6 @@ worth 20 points.
 from typing import List
 from typing import TextIO
 
-TOTAL_INTS = 10
-
 
 def read_data() -> List[int]:
     """Read data from a file.
@@ -87,12 +85,13 @@ def menu() -> None:
     """Display menu options to the user.
     """
     print("Menu Options:")
-    print("1. Read integers from a file")
+    print("1. Read numbers from a file")
     print("2. Sort numbers in ascending order and write to a file")
     print("3. Sort numbers in descending order and write to a file")
     print("4. Print largest number to the screen")
     print("5. Print smallest number to the screen")
-    print("6. Exit the program")
+    print("6. Print the numbers to the screen")
+    print("7. Exit the program")
 
 
 def main() -> None:
@@ -122,6 +121,9 @@ def main() -> None:
             case '6':
                 # FIXME 9
                 pass
+            case '7':
+                print('Exiting the program. Goodbye!')
+                break
 
 
 if __name__ == '__main__':
