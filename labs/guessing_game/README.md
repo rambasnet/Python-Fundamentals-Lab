@@ -52,7 +52,7 @@ pip install pytest
 ```
 
 7. Test the whole program manually.
-8. Create screenshots showing your local test results (pytest and manual test of main script) and save them to the current lab folder. (20 points)
+8. Create screenshots showing your local test results (pytest and **manual test of all the game features**) and save them to the current lab folder. (20 points)
 9. Update your README file (10 points with justification of self-grade) as shown here: [https://github.com/rambasnet/csxxx-rbasnet](https://github.com/rambasnet/csxxx-rbasnet)
 
 ## Submission
