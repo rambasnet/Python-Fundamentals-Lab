@@ -19,7 +19,7 @@ worth 20 points.
 from typing import List
 from typing import TextIO
 
-totalInts = 10
+TOTAL_INTS = 10
 
 
 def read_data() -> List[int]:
@@ -74,35 +74,55 @@ def print_list(out_file: TextIO, ints: List[int]) -> None:
     out_file.write('\n')
 
 
+def write_data(ints: List[int]) -> None:
+    """Write data to output file.
+    """
+    output_file_name = input('Enter a file to write output to: ')
+    # FIXME 10
+    # write each integer in ints to the output file
+    pass
+
+
+def menu() -> None:
+    """Display menu options to the user.
+    """
+    print("Menu Options:")
+    print("1. Read integers from a file")
+    print("2. Sort numbers in ascending order and write to a file")
+    print("3. Sort numbers in descending order and write to a file")
+    print("4. Print largest number to the screen")
+    print("5. Print smallest number to the screen")
+    print("6. Exit the program")
+
+
 def main() -> None:
     """Main function that solves the problem.
     """
     integers = []  # list to store integers
-    integers = read_data()
-    output_file_name = input('Enter a file to write output to: ')
-    with open(output_file_name, 'w', encoding='utf-8') as out_file:
-        out_file.write("Numbers entered:\n")
-        print_list(out_file, integers)
-        # sort numbers
-        sort_list_ascending_order(integers)
-        out_file.write("Numbers sorted in ascending order:\n")
-        print_list(out_file, integers)
+    while True:
+        menu()
+        choice = input('Enter your choice (1-6): ')
+        # math the choice and call the appropriate function
+        # match concept introduced in Python 3.10
+        match choice:
+            case '1':
+                integers = read_data()
+            case '2':
+                # FIXME 5
+                pass
+            case '3':
+                # FIXME 6
+                pass
+            case '4':
+                # FIXME 7
+                pass
+            case '5':
+                # FIXME 8
+                pass
+            case '6':
+                # FIXME 9
+                pass
 
-        # FIXME 5
-        # Call sort_list_descending_order function
 
-        # FIXME 6
-        # Write the sorted list in descending order to the output file
-
-        # FIXME 7
-        # Print the largest number to the output file
-
-        # FIXME 8
-        # Print the smallest number to the output file
-
-    print(
-        f'All done! Check the {output_file_name} for results.')
-
-
-# FIXME 9
-# Call main function if this module is run as the main module
+if __name__ == '__main__':
+    main()
