@@ -46,25 +46,27 @@ def main() -> None:
     while True:
         clear_screen()
         option = get_menu_option()
-        if option == 1:
-            win = play_game(player['name'], settings.MAX_TRIES)
-            if win:
-                player['win'] += 1
-            else:
-                player['loss'] += 1
-        elif option == 2:
-            view_scoreboard(data)
-        elif option == 3:
-            functions.save_data(settings.SCORE_BOARD_FILE, data)
-            print(
-                f'saving score board to the file {settings.SCORE_BOARD_FILE}')
-            print("Goodbye!")
-            input('Enter to exit...')
-            break
+        # if match case is not available, use if-elif-else
+        match option:
+            case 1:
+                win = play_game(player['name'], settings.MAX_TRIES)
+                if win:
+                    player['win'] += 1
+                else:
+                    player['loss'] += 1
+            case 2:
+                view_scoreboard(data)
+            case 3:
+                functions.save_data(settings.SCORE_BOARD_FILE, data)
+                print(
+                    f'saving score board to the file {settings.SCORE_BOARD_FILE}')
+                print("Goodbye!")
+                input('Enter to exit...')
+                break
 
 
 def view_scoreboard(data: List[Any]) -> None:
-    """Display data in tabular format.
+    """Display players' data in tabular format.
 
     Args:
         data (dict): data of all the players in the database
