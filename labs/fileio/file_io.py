@@ -7,10 +7,9 @@ Date: FIXME
 
 Program prompts user to enter name of the file that contains 10 integers.
 It opens, reads and stores the numbers into a list.
-Program will then sort the numbers in the list in ascending and descending 
+Program allows user to sort the numbers in the list in ascending and descending 
 orders.
-Program will then print the sorted lists to an output file along with the 
-largest and smallest values in the list.
+Program allows user to print the numbers to file and to the screen.
 
 NOTE: All fixme's are each worth 10 points except for the FIXME 1 which is 
 worth 20 points.
@@ -107,7 +106,7 @@ def main() -> None:
                 # FIXME 9
                 pass
             case '7':
-                # FIXME 9
+                # FIXME 10
                 pass
             case '8':
                 print('Exiting the program. Goodbye!')
