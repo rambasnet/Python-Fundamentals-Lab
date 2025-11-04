@@ -58,7 +58,7 @@ def sort_list_descending_order(ints: List[int]) -> None:
 def write_data(data: List[int] | Any) -> None:
     """Write data to output file.
     """
-    output_file_name = input('Enter a file to write output to: ')
+    output_file_name = input('Enter a file name to write output to: ')
     # FIXME 11
     # write data to the output file
     pass
