@@ -59,7 +59,7 @@ def write_data(data: List[int] | Any) -> None:
     """Write data to output file.
     """
     output_file_name = input('Enter a file to write output to: ')
-    # FIXME 10
+    # FIXME 11
     # write data to the output file
     pass
 
