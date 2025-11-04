@@ -16,7 +16,7 @@ NOTE: All fixme's are each worth 10 points except for the FIXME 1 which is
 worth 20 points.
 """
 
-from typing import List
+from typing import List, Any
 from typing import TextIO
 
 
@@ -56,28 +56,12 @@ def sort_list_descending_order(ints: List[int]) -> None:
     # sort ints in descending order
 
 
-def print_list(out_file: TextIO, ints: List[int]) -> None:
-    """Print the list of integers to the output file.
-
-    Args:
-        out_file (TextIO): output file object to write to
-        ints (List[int]): list of integers to write to file
-    """
-
-    for n in ints:
-        # FIXME 4
-        # write each `n` one line at a time to file
-        # handled by out_file object
-        pass
-    out_file.write('\n')
-
-
-def write_data(ints: List[int]) -> None:
+def write_data(data: List[int] | Any) -> None:
     """Write data to output file.
     """
     output_file_name = input('Enter a file to write output to: ')
     # FIXME 10
-    # write each integer in ints to the output file
+    # write data to the output file
     pass
 
 
@@ -86,12 +70,13 @@ def menu() -> None:
     """
     print("Menu Options:")
     print("1. Read numbers from a file")
-    print("2. Sort numbers in ascending order and write to a file")
-    print("3. Sort numbers in descending order and write to a file")
-    print("4. Print largest number to the screen")
-    print("5. Print smallest number to the screen")
-    print("6. Print the numbers to the screen")
-    print("7. Exit the program")
+    print("2. Print the numbers to the screen")
+    print("3. Sort numbers in ascending order")
+    print("4. Sort numbers in descending order")
+    print("5. Write numbers to an output file")
+    print("6. Print largest number to the screen")
+    print("7. Print smallest number to the screen")
+    print("8. Exit the program")
 
 
 def main() -> None:
@@ -100,9 +85,9 @@ def main() -> None:
     integers = []  # list to store integers
     while True:
         menu()
-        choice = input('Enter your choice (1-6): ')
-        # math the choice and call the appropriate function
-        # match concept introduced in Python 3.10
+        choice = input('Enter your choice (1-8): ')
+        # match the choice and call the appropriate function
+        # match concept introduced in Python 3.10; use if-elif for earlier versions
         match choice:
             case '1':
                 integers = read_data()
@@ -122,6 +107,9 @@ def main() -> None:
                 # FIXME 9
                 pass
             case '7':
+                # FIXME 9
+                pass
+            case '8':
                 print('Exiting the program. Goodbye!')
                 break
 
