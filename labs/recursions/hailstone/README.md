@@ -1,8 +1,8 @@
-# CS0 Lab A - Conditionals and Unit testing - A
+# CS0 Lab A - Recursion - Hailstone Problem
 
 Possible Points: 100
 
-Write a Python program to solve the Kattis problem with id **hailstone** [https://open.kattis.com/problems/hailstone](https://open.kattis.com/problems/hailstone). Read the problem statement carefully to design a correct solution. Note that the last part of the URL (twostones) is the problem id.
+Write a Python program to solve the Kattis problem with id **hailstone** [https://open.kattis.com/problems/hailstone](https://open.kattis.com/problems/hailstone). Read the problem statement carefully to design a correct solution. Note that the last part of the URL (hailstone) is the problem id.
 
 ## Kattis Setup
 
