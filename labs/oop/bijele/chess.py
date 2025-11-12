@@ -3,6 +3,9 @@
 
 
 class Chess:
+    """Chess class to reprsent chess pieces
+    """
+
     def __init__(self, king=1, queen=1, rooks=2, bishops=2, knights=2, pawns=8):
         self.king = king
         self.queen = queen

@@ -1,8 +1,8 @@
-# CS0 Lab - OOP and Unittesting
+# CS0 Lab A - OOP and Unittesting - Bijele Problem
 
 Possible Points: 100
 
-Write a Python program to solve the Kattis problem ID - Bijele: [https://open.kattis.com/problems/bijele](https://open.kattis.com/problems/bijele) . Read the problem statement carefully to design a correct solution using OOP and unittest.
+Use the provided partial Python solution to solve the Kattis problem ID - Bijele: [https://open.kattis.com/problems/bijele](https://open.kattis.com/problems/bijele) . Read the problem statement carefully to design a correct solution using OOP and unittest.
 
 ## Kattis Setup
 
