@@ -22,7 +22,7 @@ def hailstone_sum(n) -> int:
     """Generate the hailstone sequence starting at n.
 
     The hailstone sequence is defined as follows:
-    - If n is 1, the sume is 1.
+    - If n is 1, the sum is 1.
     - If n is even, the next number is n // 2.
     - If n is odd, the next number is 3 * n + 1.
 
